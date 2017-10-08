@@ -36,7 +36,7 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :uberclansweb, Uberclansweb.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "uberclansweb_dev",
+  username: "uberclans",
   password: "uberclans",
   database: "uberclansweb_dev",
   hostname: "localhost",
